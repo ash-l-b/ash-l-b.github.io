@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Finder thumbnails
+._*
+
+# Spotlight / Time Machine
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Node / tooling (if added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor temp files
+*.swp
+*.swo
+*~

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Ash Bishop – Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="password-gate" class="password-gate hidden">
+    <div class="password-box">
+        <h1>Private Portfolio</h1>
+        <p>This portfolio is currently private.</p>
+
+        <input type="password" id="password-input" placeholder="Enter password" />
+        <button id="password-submit">Enter</button>
+
+        <p id="password-error" class="error hidden">Incorrect password</p>
+    </div>
+</div>
+
+<div id="portfolio-content" class="hidden">
+    <header class="page-header">
+        <h1>Ash Bishop</h1>
+        <p class="description">
+            Here is a small selection of games I have developed.
+        </p>
+    </header>
+
+    <main class="grid" id="portfolio-grid"></main>
+</div>
+
+<script src="games.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
