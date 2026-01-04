@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8" />
     <title>Ash Bishop – Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+            rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -20,14 +26,16 @@
 </div>
 
 <div id="portfolio-content" class="hidden">
-    <header class="page-header">
-        <h1>Ash Bishop</h1>
-        <p class="description">
-            Here is a small selection of games I have developed.
-        </p>
-    </header>
+    <div class="container">
+        <header class="page-header">
+            <h1>Ash Bishop</h1>
+            <p class="description">
+                Here is a small selection of games I have developed.
+            </p>
+        </header>
 
-    <main class="grid" id="portfolio-grid"></main>
+        <main class="grid" id="portfolio-grid"></main>
+    </div>
 </div>
 
 <script src="games.js"></script>
