@@ -3,7 +3,7 @@
     console.log("[portfolio] script.js loaded (final)");
 
     /* ========== CONFIG ========== */
-    const PORTFOLIO_PRIVATE = true;              // toggle public/private
+    const PORTFOLIO_PRIVATE = false;              // toggle public/private
     const PORTFOLIO_PASSWORD = "ash";            // change as required
 
     /* ========== DOM ready ========== */
